@@ -10,11 +10,12 @@ using namespace std;
 
 
 class Person {
-    private:
-        string name;
-        int id;
+private:
+    string name;
+    int id;
 public:
     Person();
+    Person(string name, int id);
     void display();
     string getName();
     void setName();

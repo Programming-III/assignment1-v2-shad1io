@@ -12,6 +12,7 @@ private:
     int experienceYears;
 public:
     Instructer();
+    Instructer(string department, int experienceYears); 
     void display();
     string getDepartment()
     int getExperienceYears();

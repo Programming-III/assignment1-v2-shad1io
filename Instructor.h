@@ -8,11 +8,15 @@ using namespace std;
 
 class Instructer {
 private:
-    string deparment;
+    string department;
     int experienceYears;
 public:
     Instructer();
     void display();
+    string getDepartment()
+    int getExperienceYears();
+    void setDepartment();
+    void setExperienceYears();
 };
 
 

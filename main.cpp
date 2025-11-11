@@ -101,6 +101,13 @@ Course::Course(string courseCode,string courseName,int maxStudents,Student* stud
     this -> students = students;
     this -> currentStudents = currentStudents;
     this -> maxStudents = maxStudents;
+    this -> courseName = courseName;
+}
+string Course::getCourseCode() {
+    return courseCode;
+}
+string Course::setCourseCode(string courseCode) {
+    this-> courseCode = courseCode;
 }
 
 

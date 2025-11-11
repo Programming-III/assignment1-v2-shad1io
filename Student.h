@@ -7,12 +7,13 @@
 //#write student class here
 
 
-class Student{
+class Student {
     private:
-        string major;
         int yearLevel;
+        string major;
     public:
         Student();
+        Student(int year, string major);
         void display();
         string getMajor();
         int getYearLevel();

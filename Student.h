@@ -14,10 +14,13 @@ class Student{
     public:
         Student();
         void display();
+        string getMajor();
+        int getYearLevel();
+        void setMajor();
+        void setYearLevel();
 
 
-
-}
+};
 
 
 

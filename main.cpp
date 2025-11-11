@@ -96,7 +96,12 @@ void Instructer::display() {
 // ==================== Course Class Implementation ====================
 
 Course::Course(){}
-Course::Course()
+Course::Course(string courseCode,string courseName,int maxStudents,Student* students,int currentStudents) {
+    this -> courseCode = courseCode;
+    this -> students = students;
+    this -> currentStudents = currentStudents;
+    this -> maxStudents = maxStudents;
+}
 
 
 

@@ -117,7 +117,12 @@ void Course::setCurrentStudents(int currentStudents) {
     this -> currentStudents = currentStudents;
 }
 
-
+int Course::getMaxStudents() {
+    return maxStudents;
+}
+void Course::setMaxStudents(int maxStudents) {
+    this -> maxStudents = maxStudents;
+}
 
 
 

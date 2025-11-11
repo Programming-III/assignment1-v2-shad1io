@@ -9,7 +9,14 @@ using namespace std;
 
 
 
-
+class Person {
+    private:
+        string name;
+        int id;
+public:
+    Person();
+    void display();
+}
 
 
 

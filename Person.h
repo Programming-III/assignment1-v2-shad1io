@@ -16,7 +16,11 @@ class Person {
 public:
     Person();
     void display();
-}
+    string getName();
+    void setName();
+    int getId();
+    void setId();
+};
 
 
 

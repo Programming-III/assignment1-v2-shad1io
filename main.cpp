@@ -109,7 +109,13 @@ string Course::getCourseCode() {
 string Course::setCourseCode(string courseCode) {
     this-> courseCode = courseCode;
 }
+int Course::getCurrentStudents() {
+    return currentStudents;
+}
+void Course::setCurrentStudents(int currentStudents) {
 
+    this -> currentStudents = currentStudents;
+}
 
 
 
